@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fingerklemme software 1", "Fingerklemme software 1\Fingerklemme software 1.csproj", "{86509D95-251B-4152-A98C-A7719BF617A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86509D95-251B-4152-A98C-A7719BF617A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86509D95-251B-4152-A98C-A7719BF617A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86509D95-251B-4152-A98C-A7719BF617A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86509D95-251B-4152-A98C-A7719BF617A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83238A88-CBB6-4807-AFCA-DD50D4EB7561}
+	EndGlobalSection
+EndGlobal
