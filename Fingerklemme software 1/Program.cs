@@ -31,7 +31,7 @@ namespace Fingerklemme_software_1
                     sevenseg.Close_SevenSeg();
                 }
 
-                Console.WriteLine("Start knap er trykket - starter måling");
+                Console.WriteLine("Startknap er trykket - starter måling");
 
                 //4) Starter måling af puls
                 Random rnd = new Random();
@@ -43,7 +43,7 @@ namespace Fingerklemme_software_1
                     rpi.wait(30);
                 }
 
-                Console.WriteLine("Stop knap er trykket - viser puls");
+                Console.WriteLine("Stopknap er trykket - viser puls");
                 Console.WriteLine("Tryk på stop for at nulstille");
                 rpi.wait(250);
 
@@ -59,6 +59,7 @@ namespace Fingerklemme_software_1
             }
         }
 
+        //7) Konverterer et tal til BCD
         internal static short ConvertTobcd(int input)
         {
             return ((short)(input / 100 * 16 * 16 + (input % 100) / 10 * 16 + input % 10));
